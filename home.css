@@ -1,0 +1,22 @@
+.wall{
+		margin-left:200px;
+		margin-right:200px;	
+		height:100%;
+	}
+.carousel{
+    background: #2f4357;
+	margin-top:80px;
+	height: 30%;
+}
+.carousel .item{
+    height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.well{
+	margin-top:20px;
+	margin-left:100px;
+	margin-right:100px;
+	background-color:grey;
+}
