@@ -1,10 +1,18 @@
+ .navbar{
+		margin-left:200px;
+		margin-right:200px;	
+}
+
+#account_btn{
+	margin-right:220px;
+}
 .wall{
 		margin-left:200px;
 		margin-right:200px;	
 		height:100%;
 	}
 .carousel{
-    background: #2f4357;
+    background:#D3D3D3;
 	margin-top:80px;
 	height: 30%;
 }
@@ -16,7 +24,112 @@
 }
 .well{
 	margin-top:20px;
-	margin-left:100px;
-	margin-right:100px;
-	background-color:grey;
+	
+	background-color:grey#D3D3D3;
+}
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+/*------------------------------------------------------------------newly added--------------------------------------------*/
+
+
+.h1 {
+  font-size: 36px;
+  text-align: center;
+  font-size: 5em;
+  color: #404041;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+  font-weight: bold;
+}
+
+.mega-dropdown {
+  position: static !important;
+}
+
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 285px;
+  z-index: 10;
+}
+
+.mega-dropdown-menu:after {
+  content: "";
+  border-bottom: 17px solid #ccc;
+  border-right: 19px solid transparent;
+  border-left: 19px solid transparent;
+  position: absolute;
+  top: -17px;
+  left: 283px;
+  z-index: 8;
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  background-color: #f5f5f5;
+}
+
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+/* -----------------------------------------ABOUT US----------------------------------------------*/
+#temporary{
+	margin-top:200px;
+	margin-bottom:200px;
+}
+#aboutus{
+	border:1px solid dark grey;
+	background-color: #D3D3D3;
+	padding-top: 15px;
+	padding-top: 15px;
 }
